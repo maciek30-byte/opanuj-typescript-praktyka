@@ -6,7 +6,8 @@ function swapStrings(a: string, b: string): [string, string] {
   return [b, a];
 }
 
-export function swapBox(a, b) {
+export function swapBox<T>(a: T, b:T) {
+  return [b,a]
   throw new Error('Not implemented');
 }
 
